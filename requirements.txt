@@ -1,0 +1,14 @@
+# Install required R packages
+install.packages(c(
+  "lme4",           # Mixed-effects models
+  "lmerTest",       # Testing in linear mixed models
+  "glmnet",         # LASSO regression
+  "mediation",      # Mediation analysis
+  "hdmed",          # High-dimensional mediation
+  "MetaboAnalystR", # Metabolomics pathway analysis
+  "ggplot2",        # Visualization
+  "pheatmap",       # Heatmaps
+  "dplyr",          # Data manipulation
+  "tidyr",          # Data tidying
+  "reshape2"        # Data reshaping
+))
